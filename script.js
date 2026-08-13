@@ -5,7 +5,9 @@ const targetHours = 400;
 const specialDates = {
   '2026-07-21': { type: 'absent', remark: 'Absent' },
   '2026-08-10': { type: 'nowork', remark: 'No Work / Holiday' },
-  '2026-08-11': { type: 'nowork', remark: 'No Work / Holiday' }
+  '2026-08-11': { type: 'nowork', remark: 'No Work / Holiday' },
+  '2026-08-21': { type: 'nowork', remark: 'No Work / Holiday' },
+  '2026-08-31': { type: 'nowork', remark: 'No Work / Holiday' }
 };
 
 const dayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
